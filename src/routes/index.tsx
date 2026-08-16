@@ -28,7 +28,7 @@ export const Route = createFileRoute("/")({
         property: "og:description",
         content: "حلول تقنية وتسويقية متكاملة لنمو أعمالك: أنظمة، متاجر، تطبيقات وحملات.",
       },
-      { property: "og:description", content: "حلول تقنية وتسويقية متكاملة لنمو أعمالك." },
+
     ],
   }),
   component: Home,
