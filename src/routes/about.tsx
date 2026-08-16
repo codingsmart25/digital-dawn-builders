@@ -60,7 +60,7 @@ function About() {
         <dl className="mt-8 grid gap-4 sm:grid-cols-3">
           {about.facts.map((f) => (
             <div key={f.value} className="surface-card px-6 py-7 text-center">
-              <dt className="text-3xl font-extrabold text-primary">{f.value}</dt>
+              <dt dir="ltr" className="text-3xl font-extrabold text-primary">{f.value}</dt>
               <dd className="mt-1 text-xs text-muted-foreground">{t(f.label)}</dd>
             </div>
           ))}

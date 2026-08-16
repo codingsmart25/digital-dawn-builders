@@ -77,7 +77,7 @@ function Home() {
           <dl className="mt-16 grid grid-cols-2 gap-4 sm:grid-cols-4">
             {stats.map((s) => (
               <div key={s.value} className="surface-card px-5 py-6 text-center">
-                <dt className="text-3xl font-extrabold text-primary">{s.value}</dt>
+                <dt dir="ltr" className="text-3xl font-extrabold text-primary">{s.value}</dt>
                 <dd className="mt-1 text-xs text-muted-foreground">{t(s.label)}</dd>
               </div>
             ))}
