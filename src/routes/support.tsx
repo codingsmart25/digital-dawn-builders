@@ -19,7 +19,7 @@ export const Route = createFileRoute("/support")({
       { property: "og:description", content: "استشارة مجانية ودعم فني سريع من فريق إكشاد آي تي." },
     ],
   }),
-  component: Support;
+  component: Support,
 });
 
 function Support() {
